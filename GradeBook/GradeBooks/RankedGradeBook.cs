@@ -62,7 +62,7 @@ namespace GradeBook.GradeBooks
             }
             else if (Students.Count >= 5)
             {
-                base.CalculateStudentStatistics();
+                base.CalculateStudentStatistics(name);
             }
         }
     }
